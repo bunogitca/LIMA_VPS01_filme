@@ -1,0 +1,91 @@
+body {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#000000, #4A0E17);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EFE903;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #7C878E;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #7C878E;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.card2 {
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px yellow;
+  transition: transform 0.2s;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding:15px;
+  background-color: #0f5f6f;
+  color: white;
+  margin-top: 20px;
+}
