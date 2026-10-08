@@ -75,7 +75,6 @@ header {
   width: 250px;
   box-shadow: 0 4px 10px yellow;
   transition: transform 0.2s;
-  justify-content: space-between;
 }
 
 .card:hover {
