@@ -2,6 +2,7 @@ body {
   margin: 10px;
   font-family: Arial, sans-serif;
   background: linear-gradient(#000000, #4A0E17);
+  background-size: cover;
 }
 
 nav {
