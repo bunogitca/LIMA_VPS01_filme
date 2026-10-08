@@ -109,3 +109,6 @@ footer {
   transition: transform 0.5s ease-in-out;
   transform: rotate(360deg);
 }
+nav a:hover {
+  text-decoration: underline;
+}
