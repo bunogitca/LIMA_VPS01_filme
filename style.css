@@ -68,6 +68,14 @@ header {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.2s;
 }
+
+.aa {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card2 {
   background-color: #2c2c2c;
   border-radius: 8px;
@@ -75,16 +83,25 @@ header {
   width: 250px;
   box-shadow: 0 4px 10px yellow;
   transition: transform 0.2s;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
-
 .card:hover {
   transform: scale(1.05);
+  background-color: #EFE903;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+  background-color: #EFE903;
 }
 
 footer {
+  background-color: #EFE903;
+  padding: 10px;
   text-align: center;
-  padding:15px;
-  background-color: #0f5f6f;
-  color: white;
-  margin-top: 20px;
+  color: black;
+  width: 100%;
 }
